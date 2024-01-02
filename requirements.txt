@@ -1,0 +1,14 @@
+# Usage: pip install -r requirements.txt
+
+requests>=2.30.0
+flask>=2.3.2
+pdfkit>=1.0.0
+roboflow>=1.0.9
+easyocr>=1.6.2
+pandas>=2.0.1
+ultralytics>=8.0.105
+pytesseract>=0.3.10
+openpyxl>=3.1.2
+wkhtmltopdf>=0.2
+
+# download https://wkhtmltopdf.org/downloads.html and execute
