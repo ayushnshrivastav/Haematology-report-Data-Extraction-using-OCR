@@ -29,10 +29,13 @@ Roles:
   
    b. Views Predicted Probabilities of Diseases: After the analysis is performed, the user can view the predicted probabilities of diseases or abnormalities detected in their blood report. This information 
       helps the user understand their health condition and potential risks.
-      OCR results: ![uploaded_image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/c15f1449-13aa-40a2-a41b-aafd9b67fd68)
-      Generated report for User:
+      OCR results: ![uploaded_image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/8935b51a-9581-404c-800e-3808c84e75a1)
+      Generated report for User:![image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/3159f762-f02b-4bce-8052-e7afe35109e7)
+       ![image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/0920df11-385a-403a-b991-a6ab08cd6e6d)  
+       
 
    c. Consumes Suggestions: Based on the analysis results, the user receives personalized suggestions or recommendations for maintaining or improving their health. These suggestions includes lifestyle changes,         dietary modifications, or medical interventions to address any identified health issues.
+       ![image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/8e1c5620-5057-4689-b69d-a16bdefa6986)
 
 Use case diagram 
 ![capstone use case](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/ece075a7-7017-4d1b-adc3-e2f32873cb19)
