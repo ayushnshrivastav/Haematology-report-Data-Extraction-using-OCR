@@ -18,15 +18,15 @@ This repository contains the source code for a web application designed to analy
 
 1.Clone the repository:
 
-  git clone (https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR.git)
+    git clone (https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR.git)
   
 2. Install dependencies:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Run the Flask application:
 
-  flask run
+    flask run
 
 
   
