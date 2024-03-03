@@ -17,10 +17,15 @@ This repository contains the source code for a web application designed to analy
 **Installation**:
 
 1.Clone the repository:
+
   git clone (https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR.git)
-Install dependencies:
+  
+2. Install dependencies:
+
   pip install -r requirements.txt
-Run the Flask application:
+
+3. Run the Flask application:
+
   flask run
 
 
