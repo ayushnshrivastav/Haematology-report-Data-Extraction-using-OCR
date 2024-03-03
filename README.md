@@ -3,6 +3,7 @@
 This repository contains the source code for a web application designed to analyze blood reports uploaded by users. The application utilizes OCR (Optical Character Recognition) technology to extract relevant information from the reports, such as name, age, sex, and various blood parameters. Subsequently, a rule-based algorithm assesses the extracted values to determine if they fall within normal ranges. If any values are found to be abnormal, the algorithm provides insights into the extent of deviation, potential causes, and suggestions for normalization.
 
 
+
 **Features**:
 
   1. OCR Integration: Utilizes OCR technology, including Roboflow, YoloV8, easyOCR, and pytesseract, to extract information from blood reports.
@@ -10,6 +11,7 @@ This repository contains the source code for a web application designed to analy
   3. Abnormality Detection: Identifies and reports abnormalities in blood parameters.
   4. Detailed Insights: Provides percentage deviation, potential causes, and suggestions for abnormal values.
   5. Sensitive Data Handling: Ensures confidentiality and security by processing sensitive data within the application.
+
 
 
 **Installation**:
@@ -21,6 +23,7 @@ Install dependencies:
 Run the Flask application:
   flask run
 
+
   
 **Usage**:
 
@@ -30,17 +33,20 @@ Run the Flask application:
   4. Suggestions for Normalization: Users receive suggestions on how to normalize abnormal blood parameters.
 
 
+
 **Required Links:**
 
 - Roboflow Project: Roboflow Project
-- YoloV8 Model: YoloV8 Model
-- Flask Documentation: Flask Documentation
-- LabelImg Tool: LabelImg Tool
+- YoloV8 Model: [YoloV8 Model](https://github.com/ultralytics/ultralytics.git)
+- Flask Documentation: [Flask Documentation](https://github.com/topics/flask)
+- LabelImg Tool: [LabelImg Tool](https://github.com/topics/labelimg)
+
 
   
 **Images:**
 
 Images of blood reports might be required for testing purposes.
+
 
 
 **Disclaimer:**
