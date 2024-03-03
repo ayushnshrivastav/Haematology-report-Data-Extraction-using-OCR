@@ -13,6 +13,61 @@ This repository contains the source code for a web application designed to analy
   5. Sensitive Data Handling: Ensures confidentiality and security by processing sensitive data within the application.
 
 
+**System Design:**
+
+Roles:
+1. Developer:
+   a.Data Gathering: Acquiring relevant datasets for training and testing the OCR and machine learning models. This involves collecting blood report samples from various sources, including the internet and
+     local hospitals.
+   b. Data Processing and Annotatio: Preprocessing the collected data to ensure consistency, cleanliness, and compatibility with the training pipeline. This step involves tasks such as data cleaning, data              augmentation  and data annotation to enhance the quality and diversity of the dataset.
+   c. Model Training: Developing and training machine learning models, including YoloV8, easyOCR, pytesseract, Roboflow and rule based algorithm to perform tasks such as object detection and classification of          blood parameters.
+   d. Model Evaluation: Assessing the performance of trained models using appropriate metrics and validation techniques. This involves testing the models on unseen data to measure their accuracy, precision,            recall, and other relevant metrics.
+3. User: The user interacts with the application through the web interface to upload their blood reports and obtain insights into their health status.
+   a. Uploads the Report: The user uploads their blood report via the web application, providing the necessary input data for analysis.
+    UI: ![image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/255eaf67-4b59-44d1-b859-ed5d3674d548)
+    Report: ![uploaded_image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/73d22742-9ac3-4e71-bb01-f1054cb27bac)
+  
+   b. Views Predicted Probabilities of Diseases: After the analysis is performed, the user can view the predicted probabilities of diseases or abnormalities detected in their blood report. This information 
+      helps the user understand their health condition and potential risks.
+      OCR results: ![uploaded_image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/c15f1449-13aa-40a2-a41b-aafd9b67fd68)
+      Generated report for User:
+
+   c. Consumes Suggestions: Based on the analysis results, the user receives personalized suggestions or recommendations for maintaining or improving their health. These suggestions includes lifestyle changes,         dietary modifications, or medical interventions to address any identified health issues.
+
+Use case diagram 
+![capstone use case](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/ece075a7-7017-4d1b-adc3-e2f32873cb19)
+
+Process Flow:
+
+1. Model Training:
+
+    a. Report Collection: Collecting reports from the internet and local hospitals.
+    b. Report Selection: Selecting the most consistent report format.
+    c. Data Augmentation: Augmenting data to improve model performance.
+    d. Annotation for OCR: Annotating data for OCR (Optical Character Recognition).
+    e. Training CNN Model: Training Convolutional Neural Network model.
+    f. Testing Model: Evaluating model performance.
+    g. Saving and Using Best Performance Model: Saving the best-performing model for deployment.
+
+2. Data Extraction:
+
+    1. Object Detection: Detecting required texts in the reports.
+    b. Image Processing: Segmenting images of separate objects.
+    c. OCR: Extracting text from segments using OCR techniques.
+
+3. User Interface: Web Application:
+
+    a. Uploading of Blood Report: User uploads blood report via the web application.
+    b. Hematological Report Generation: Generated hematological report is downloadable.
+
+4. Report Generated:
+
+  a. Calculations: Identifying abnormal values and calculating deviations considering age and sex.
+  b. Cause and Solutions/Suggestions: Research-based likely causes and suggestions provided for abnormal values.
+
+Process flow Diagram:
+![uml_capstone-BlockDiagram (1)](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/7b1399d9-46ed-4e24-8039-e525cd41d972)
+
 
 **Installation**:
 
