@@ -80,11 +80,11 @@ Process flow Diagram:
   
 2. Install dependencies:
 
-    pip install -r requirements.txt
+       pip install -r requirements.txt
 
 3. Run the Flask application:
 
-    flask run
+        flask run
 
 
   
