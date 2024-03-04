@@ -16,13 +16,20 @@ This repository contains the source code for a web application designed to analy
 **System Design:**
 
 Roles:
+
 1. Developer:
+   
    a.Data Gathering: Acquiring relevant datasets for training and testing the OCR and machine learning models. This involves collecting blood report samples from various sources, including the internet and
      local hospitals.
+   
    b. Data Processing and Annotatio: Preprocessing the collected data to ensure consistency, cleanliness, and compatibility with the training pipeline. This step involves tasks such as data cleaning, data              augmentation  and data annotation to enhance the quality and diversity of the dataset.
+   
    c. Model Training: Developing and training machine learning models, including YoloV8, easyOCR, pytesseract, Roboflow and rule based algorithm to perform tasks such as object detection and classification of          blood parameters.
+
    d. Model Evaluation: Assessing the performance of trained models using appropriate metrics and validation techniques. This involves testing the models on unseen data to measure their accuracy, precision,            recall, and other relevant metrics.
+
 3. User: The user interacts with the application through the web interface to upload their blood reports and obtain insights into their health status.
+
    a. Uploads the Report: The user uploads their blood report via the web application, providing the necessary input data for analysis.
     UI: ![image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/255eaf67-4b59-44d1-b859-ed5d3674d548)
     Report: ![uploaded_image](https://github.com/ayushnshrivastav/Haematology-report-Data-Extraction-using-OCR/assets/71760784/73d22742-9ac3-4e71-bb01-f1054cb27bac)
