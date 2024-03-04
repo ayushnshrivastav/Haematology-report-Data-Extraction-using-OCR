@@ -51,28 +51,38 @@ Process Flow:
 
 1. Model Training:
 
-    a. Report Collection: Collecting reports from the internet and local hospitals.
-    b. Report Selection: Selecting the most consistent report format.
-    c. Data Augmentation: Augmenting data to improve model performance.
-    d. Annotation for OCR: Annotating data for OCR (Optical Character Recognition).
-    e. Training CNN Model: Training Convolutional Neural Network model.
-    f. Testing Model: Evaluating model performance.
-    g. Saving and Using Best Performance Model: Saving the best-performing model for deployment.
+   a. Report Collection: Collecting reports from the internet and local hospitals.
 
-2. Data Extraction:
+   b. Report Selection: Selecting the most consistent report format.
 
-    1. Object Detection: Detecting required texts in the reports.
-    b. Image Processing: Segmenting images of separate objects.
-    c. OCR: Extracting text from segments using OCR techniques.
+   c. Data Augmentation: Augmenting data to improve model performance.
 
-3. User Interface: Web Application:
+   d. Annotation for OCR: Annotating data for OCR (Optical Character Recognition).
 
-    a. Uploading of Blood Report: User uploads blood report via the web application.
-    b. Hematological Report Generation: Generated hematological report is downloadable.
+   e. Training CNN Model: Training Convolutional Neural Network model.
 
-4. Report Generated:
+   f. Testing Model: Evaluating model performance.
+
+   g. Saving and Using Best Performance Model: Saving the best-performing model for deployment.
+
+3. Data Extraction:
+
+   a. Object Detection: Detecting required texts in the reports.
+
+   b. Image Processing: Segmenting images of separate objects.
+
+   c. OCR: Extracting text from segments using OCR techniques.
+
+5. User Interface: Web Application:
+
+   a. Uploading of Blood Report: User uploads blood report via the web application.
+
+   b. Hematological Report Generation: Generated hematological report is downloadable.
+
+7. Report Generated:
 
   a. Calculations: Identifying abnormal values and calculating deviations considering age and sex.
+  
   b. Cause and Solutions/Suggestions: Research-based likely causes and suggestions provided for abnormal values.
 
 Process flow Diagram:
@@ -110,13 +120,6 @@ Process flow Diagram:
 - YoloV8 Model: [YoloV8 Model](https://github.com/ultralytics/ultralytics.git)
 - Flask Documentation: [Flask Documentation](https://github.com/topics/flask)
 - LabelImg Tool: [LabelImg Tool](https://github.com/topics/labelimg)
-
-
-  
-**Images:**
-
-Images of blood reports might be required for testing purposes.
-
 
 
 **Disclaimer:**
